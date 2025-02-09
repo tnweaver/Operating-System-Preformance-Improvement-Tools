@@ -22,8 +22,7 @@ This is the Best support tools I have found for preformance improvement when it 
 ## Linux
 ### Description
 This will be the Linux Section and it will very depending on the flavor of linux you are using as well as the kernal.
-**Warning**
-All of the commands are shown from a Ubuntu Flavors/Kernel Example.
+- **Warning!!!** All of the commands are shown from a Ubuntu Flavors/Kernel Example.
 
 
 ## MacOS (Unix Variant)
