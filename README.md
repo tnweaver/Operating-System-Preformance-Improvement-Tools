@@ -79,3 +79,4 @@ Now when you restart the ```powertop.service will autostart with the --auto-tune
 
 ## MacOS (Unix Variant)
 ### TLDR: Use my 'Perfect Mac Install Every Time' Github page
+### [https://github.com/tnweaver/PMIE]
