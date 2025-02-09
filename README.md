@@ -38,7 +38,9 @@ Install Process:
 
 First Install Powertop onto the device.
 
-```sudo apt install powertop -y ```
+```Bash
+sudo apt install powertop -y 
+```
 
 
 
