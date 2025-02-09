@@ -41,9 +41,41 @@ First Install Powertop onto the device.
 ```Bash
 sudo apt install powertop -y 
 ```
+To run the service you can use:
+```bash
+powertop
+```
+or 
+```bash
+sudo powertop
+```
 
+My perfered way of using powertop is to use it with the ```--auto-tune``` syntax added allowing the service to automaticly tune the parts of the computer making it more power efficient. 
 
+Currently everytime that the OS starts the powertop service wont auto start so we will need to create a new service that makes it autostart.
 
+First You will need to create and edit the ```powertop.service``` 
+```bash
+nano /etc/systemd/system/powertop.service
+```
+Then once you have used the command and editing the ```powertop.service``` with nano copy this over, save and exit.
+```bash
+[Unit]
+Description=PowerTOP auto-tuning
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Then Enable the ```powertop.service```
+```bash
+systemctl enable powertop.service
+```
+Now when you restart the ```powertop.service will autostart with the --auto-tune syntax 
 
 ## MacOS (Unix Variant)
 ### TLDR: Use my 'Perfect Mac Install Every Time' Github page
