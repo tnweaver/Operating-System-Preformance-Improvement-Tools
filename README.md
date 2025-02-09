@@ -29,5 +29,19 @@ This will be the Linux Section and it will very depending on the flavor of linux
 - **Warning!!!** All of the commands are shown from a Ubuntu Flavors/Kernel Example.
 
 
+
+### 1. Powertop
+### Description:
+
+
+Install Process:
+
+First Install Powertop onto the device.
+
+```sudo apt install powertop -y ```
+
+
+
+
 ## MacOS (Unix Variant)
 ### TLDR: Use my 'Perfect Mac Install Every Time' Github page
