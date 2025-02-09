@@ -10,3 +10,6 @@ Types of operating systems:
 Mac 
 Windows
 Linux
+
+
+Idk what else to add I am just going to add scripts or tools that others and I use making a huge collection of work for each operating system. 
