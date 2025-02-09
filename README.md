@@ -2,6 +2,9 @@
 ## Operating System Preformance Improvement Tools
 ## Project Overview
 This will be a collection of Different operating system preformance tools (Some created by me and others not) that I reccomend to use for post OS installation.
+
+
+This is just a personal project page that if it is use to others than good! if not than thats fine too! I will really only update this when I get the chance to as I have a full time job and this is just one of many passion projects.
 ### Main features:
 Support for the main different types of OS
 
