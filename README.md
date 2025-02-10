@@ -41,6 +41,8 @@ This Is a tool that Chris Titus has been working on for years, and I personally 
 ### You can find the Website Guide here:
 ### [https://christitus.com/windows-tool/]
 ### The command is here if you dont want to go check out his website:
+
+Make sure to run it in a administrator Powershell terminal!!!
 ```bash
 iwr -useb https://christitus.com/win | iex
 ```
