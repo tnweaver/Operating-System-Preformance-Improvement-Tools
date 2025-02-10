@@ -14,8 +14,7 @@ Types of operating systems:
 - Windows
 - Linux
 
-Idk what else to add I am just going to add scripts or tools that others and I use making a huge collection of work for each operating system...
-
+Idk what else to add I am just going to add scripts or tools that others and I use making a huge collection of work for each operating system... (mainly just windows)
 
 
 ## Windows
@@ -36,10 +35,20 @@ This is a new one that I personally think is the best polished when it comes to 
 ### You can find the Github install here:
 ### [https://github.com/memstechtips/Winhance]
 
+### 3. The Ultimate Windows Utility by Chris Titus
+### Description:
+This Is a tool that Chris Titus has been working on for years, and I personally first started using it for windows 10 and now its mainly expanded to windows 11+. A very good tool and really you only need one command line to download and run the tool as long as you launch a powershell as an administrator.
+### You can find the Website Guide here:
+### [https://christitus.com/windows-tool/]
+### The command is here if you dont want to go check out his website:
+```bash
+iwr -useb https://christitus.com/win | iex
+```
+
 
 ## Linux
 ### Description
-This will be the Linux Section and it will very depending on the flavor of linux you are using as well as the kernal.
+This will be the Linux Section and it will very depending on the flavor of linux you are using as well as the kernal. For the most part most good linux distros come pretty well tuned. for the most part if you have many problems most of them dont really apply to any kernel. The main reason for this section is for power preformance as the most popular software to run on servers is linux. This includes hypervisors (VMware ESXI/Proxmox/Red Hat Virtualization).
 - **Warning!!!** All of the commands are shown from a Ubuntu Flavors/Kernel Example.
 
 
@@ -88,11 +97,7 @@ Then Enable the ```powertop.service```
 ```bash
 systemctl enable powertop.service
 ```
-Now when you restart the ```powertop.service will autostart with the --auto-tune syntax 
-
-### 2. TBC
-### Description
-
+Now when you restart the ```powertop.service``` will autostart with the --auto-tune syntax 
 
 
 
